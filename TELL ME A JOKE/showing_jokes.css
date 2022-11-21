@@ -1,0 +1,24 @@
+.user_jokes{
+    margin: 5px;
+    background-color: aqua;
+    font-size: larger;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10vh;
+    height: fit-content;
+    /* width: fit-cont */
+    /* justify-content: center; */
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 5vh/5vw;
+}
+button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto 50%;
+    height: 100px;
+    width: 100px;
+}

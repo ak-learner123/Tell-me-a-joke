@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell Me A Joke</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TELL ME A JOKE PLEASE</h1>
+    <h5>Click on the button to get a random joke.</h5>
+    <p id = 'Joke'>GET A JOKE</p> <!--THIS IS THE PARA WHERE JOKE WILL BE LOADED-->
+    <div><button onclick="show_joke()">GET A Joke</button></div>
+</body>
+
+<div id="user_own_joke_list">
+    <b>DO YOU WANT TO SEE <a href="userjokes.html" target="_blank">YOUR OWN JOKES</a></b><!--LINK TO GO TO USERJOKES.HTML FILE ANS SEE JOKES-->
+</div>
+<footer>
+    <form><!--FORM TO SUBMIT JOKES-->
+            <legend><b><u>ENTER YOUR JOKE</u></b></legend>
+            <div>DON'T WORRY, THESE JOKES THAT YOU ENTERED CAN ONLY BE SENN BY YOU, NOT EVEN BY US</div>
+            <textarea name="joke of user" id="user_joke" cols="70" rows="16"></textarea>
+        <br>
+        <label for="submission">
+            <button onclick="submit_joke()" type="button" id="jokesubmision">SUBMIT</button>
+    </form>
+</footer>
+
+</html>
